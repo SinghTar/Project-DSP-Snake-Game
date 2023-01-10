@@ -143,8 +143,11 @@ Als taal wordt er gebruik van VHDL aangezien we bij de eerste jaar ook met VHDL 
 ## Bronnen
 
 VGA Signal Timing. (n.d.). http://tinyvga.com/vga-timing
+
 Digitap learning: Op de site inloggen. (n.d.). https://learning.ap.be/login/index.php
+
 ldm0. (2019, July 21). FPGAsnake. GitHub. https://github.com/ldm0/FPGAsnake
 Pantech. (2020, May 4). VGA interface with FPGA Development Kit. Pantech Solutions. https://www.pantechsolutions.net/vga-interface-with-fpga-development-kit#:~:text=VGA%20interface%20with%20FPGA%20is,visible%20area%20of%20the%20monitor.
+
 Instructables. (2017, October 4). PS2 Keyboard for FPGA. https://www.instructables.com/PS2-Keyboard-for-FPGA/
 
