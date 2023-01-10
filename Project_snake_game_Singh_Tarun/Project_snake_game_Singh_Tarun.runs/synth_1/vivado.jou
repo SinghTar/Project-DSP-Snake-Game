@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Dec 27 18:22:44 2022
+# Process ID: 19120
+# Current directory: C:/Users/Tarun/Documents/School 3/DSD/FPGA project Snake game/Project_snake_game_Singh_Tarun/Project_snake_game_Singh_Tarun.runs/synth_1
+# Command line: vivado.exe -log snake_game.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source snake_game.tcl
+# Log file: C:/Users/Tarun/Documents/School 3/DSD/FPGA project Snake game/Project_snake_game_Singh_Tarun/Project_snake_game_Singh_Tarun.runs/synth_1/snake_game.vds
+# Journal file: C:/Users/Tarun/Documents/School 3/DSD/FPGA project Snake game/Project_snake_game_Singh_Tarun/Project_snake_game_Singh_Tarun.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source snake_game.tcl -notrace

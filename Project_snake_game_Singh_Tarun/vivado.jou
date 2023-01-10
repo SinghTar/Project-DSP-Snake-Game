@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Jan 10 11:21:52 2023
+# Process ID: 9828
+# Current directory: C:/Users/Tarun/Documents/School 3/DSD/FPGA project Snake game/Project_snake_game_Singh_Tarun
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18488 C:\Users\Tarun\Documents\School 3\DSD\FPGA project Snake game\Project_snake_game_Singh_Tarun\Project_snake_game_Singh_Tarun.xpr
+# Log file: C:/Users/Tarun/Documents/School 3/DSD/FPGA project Snake game/Project_snake_game_Singh_Tarun/vivado.log
+# Journal file: C:/Users/Tarun/Documents/School 3/DSD/FPGA project Snake game/Project_snake_game_Singh_Tarun\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Tarun/Documents/School 3/DSD/FPGA project Snake game/Project_snake_game_Singh_Tarun/Project_snake_game_Singh_Tarun.xpr}
+update_compile_order -fileset sources_1

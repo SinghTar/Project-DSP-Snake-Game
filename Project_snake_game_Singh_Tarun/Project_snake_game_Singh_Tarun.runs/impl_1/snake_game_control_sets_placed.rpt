@@ -1,0 +1,115 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Tue Dec 27 18:23:55 2022
+| Host         : DESKTOP-JVEB901 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file snake_game_control_sets_placed.rpt
+| Design       : snake_game
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    37 |
+|    Minimum number of control sets                        |    37 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   207 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    37 |
+| >= 0 to < 4        |    27 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     3 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     5 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             129 |           42 |
+| No           | No                    | Yes                    |              25 |           14 |
+| No           | Yes                   | No                     |              29 |           15 |
+| Yes          | No                    | No                     |               8 |            2 |
+| Yes          | No                    | Yes                    |             685 |          277 |
+| Yes          | Yes                   | No                     |              13 |            4 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------+-----------------------------+-----------------------------+------------------+----------------+
+|          Clock Signal         |        Enable Signal        |       Set/Reset Signal      | Slice Load Count | Bel Load Count |
++-------------------------------+-----------------------------+-----------------------------+------------------+----------------+
+|  C5/U1/ps2_out_reg[7]_2       |                             | C5/U1/ps2_out_reg[7]_1      |                1 |              1 |
+|  C5/U1/ps2_out_reg[4]_2       |                             | C5/U1/ps2_out_reg[4]_1      |                1 |              1 |
+|  clk_60hz_future_reg_n_0_BUFG |                             | C3/snake_head_xy_future0    |                1 |              1 |
+|  C5/U1/ps2_out_reg[2]_2       |                             | C5/U1/ps2_out_reg[2]_1      |                1 |              1 |
+|  C5/U1/ps2_out_reg[6]_2       |                             | C5/U1/ps2_out_reg[6]_1      |                1 |              1 |
+|  C5/U1/ps2_out_reg[1]_2       |                             | C5/U1/ps2_out_reg[1]_1      |                1 |              1 |
+|  C5/U1/ps2_out_reg[0]_2       |                             | C5/U1/ps2_out_reg[0]_1      |                1 |              1 |
+|  C5/U1/ps2_out_reg[3]_2       |                             | C5/U1/ps2_out_reg[3]_1      |                1 |              1 |
+|  C5/U1/ps2_out_reg[5]_2       |                             | C5/U1/ps2_out_reg[5]_1      |                1 |              1 |
+|  C2/inst/clk_out1             |                             | C1/h_sync0                  |                1 |              1 |
+|  clk_100mhz_IBUF_BUFG         |                             | C5/U1/ps2_out_reg[6]_1      |                1 |              1 |
+|  clk_100mhz_IBUF_BUFG         |                             | C5/U1/ps2_out_reg[0]_1      |                1 |              1 |
+|  clk_100mhz_IBUF_BUFG         |                             | C5/U1/ps2_out_reg[2]_1      |                1 |              1 |
+|  clk_100mhz_IBUF_BUFG         |                             | C5/U1/ps2_out_reg[5]_1      |                1 |              1 |
+|  clk_100mhz_IBUF_BUFG         |                             | C5/U1/ps2_out_reg[1]_1      |                1 |              1 |
+|  clk_100mhz_IBUF_BUFG         |                             | C5/U1/ps2_out_reg[3]_1      |                1 |              1 |
+|  clk_100mhz_IBUF_BUFG         |                             | C5/U1/ps2_out_reg[4]_1      |                1 |              1 |
+|  clk_100mhz_IBUF_BUFG         |                             | C5/U1/ps2_out_reg[7]_1      |                1 |              1 |
+|  C2/inst/clk_out1             |                             | C1/v_sync0                  |                1 |              1 |
+|  clk_100mhz_IBUF_BUFG         | C5/U2/p_2_in                | C5/U1/ps2_out_reg[7]_2      |                1 |              1 |
+|  clk_100mhz_IBUF_BUFG         | C5/U2/p_2_in                | C5/U1/ps2_out_reg[4]_2      |                1 |              1 |
+|  clk_100mhz_IBUF_BUFG         | C5/U2/p_2_in                | C5/U1/ps2_out_reg[2]_2      |                1 |              1 |
+|  clk_100mhz_IBUF_BUFG         | C5/U2/p_2_in                | C5/U1/ps2_out_reg[6]_2      |                1 |              1 |
+|  clk_100mhz_IBUF_BUFG         | C5/U2/p_2_in                | C5/U1/ps2_out_reg[1]_2      |                1 |              1 |
+|  clk_100mhz_IBUF_BUFG         | C5/U2/p_2_in                | C5/U1/ps2_out_reg[0]_2      |                1 |              1 |
+|  clk_100mhz_IBUF_BUFG         | C5/U2/p_2_in                | C5/U1/ps2_out_reg[3]_2      |                1 |              1 |
+|  clk_100mhz_IBUF_BUFG         | C5/U2/p_2_in                | C5/U1/ps2_out_reg[5]_2      |                1 |              1 |
+|  clk_100mhz_IBUF_BUFG         |                             |                             |                2 |              4 |
+|  clk_60hz_future_reg_n_0_BUFG |                             |                             |                3 |              8 |
+|  clk_100mhz_IBUF_BUFG         | C5/U1/ps2_out[7]_i_1_n_0    |                             |                2 |              8 |
+| ~C5/U1/ps2c_int_reg_0         |                             |                             |                3 |              9 |
+|  clk_100mhz_IBUF_BUFG         | C5/U1/count_idle[0]_i_2_n_0 | C5/U1/count_idle[0]_i_1_n_0 |                4 |             13 |
+|  clk_100mhz_IBUF_BUFG         |                             | clr_IBUF                    |                5 |             16 |
+|  C2/inst/clk_out1             |                             | clk_60hz_future             |                5 |             19 |
+|  clk_60hz_future_reg_n_0_BUFG | C4/E[0]                     | C3/snake_head_xy_future0    |               13 |             37 |
+|  C2/inst/clk_out1             |                             |                             |               34 |            109 |
+|  clk_60hz_future_reg_n_0_BUFG | C4/stop_next_reg_0[0]       | C3/snake_head_xy_future0    |              256 |            640 |
++-------------------------------+-----------------------------+-----------------------------+------------------+----------------+
+
+
