@@ -1,6 +1,0 @@
-*.html linguist-detectable=false
-*.SystemVerilog linguist-detectable=false
-*.verilog linguist-detectable=false
-*.shell linguist-detectable=false
-*.Tcl linguist-detectable=false
-*.Other linguist-detectable=false
