@@ -32,7 +32,7 @@ Ik had eerst wat meer informatie en voorbeeld code opgezocht op het internet. Al
 
 ## Testing
 
-De testing heb ik grotendeels met trail en error principe gedaan. Dus door regelmatig naar de output op de monitor te controleren. De toetsenboard heb ik ook gecontroleerd door de gekozen toetsen te drukken en te zien of de slang naar de juiste richting gaat. 
+De testing heb ik grotendeels met trail en error principe gedaan. Dus door regelmatig naar de output op de monitor te controleren. De toetsenboard heb ik ook gecontroleerd door de gekozen toetsen te drukken en te zien of de slang naar de juiste richting gaat. Ook heb ik de log berichten van Vivado grondig bekeken bij een error.
 
 ## Ervaarde moeilijkheden / gevonden oplossingen
 
@@ -130,7 +130,7 @@ Volgens mij is dit project een uitdagende project, aangezien er verschillende za
 
 ## Testing
 
-De testing heb ik grotendeels met trail en error principe gedaan. Dus door regelmatig naar de output op de monitor te controleren. De toetsenboard heb ik ook gecontroleerd door de gekozen toetsen te drukken en te zien of de slang naar de juiste richting gaat. 
+De testing heb ik grotendeels met trail en error principe gedaan. Dus door regelmatig naar de output op de monitor te controleren. De toetsenboard heb ik ook gecontroleerd door de gekozen toetsen te drukken en te zien of de slang naar de juiste richting gaat. Ook heb ik de log berichten van Vivado grondig bekeken bij een error.
 
 ## Modulaire opbouw
 
